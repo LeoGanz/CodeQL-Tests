@@ -17,6 +17,7 @@ public class BidirectionalPropagation {
 
         String res = json.get(key);
         String password = res;
-        logger.debug("Result from map: " + password);
+        String noname = password;
+        logger.debug("Result from map: " + noname);
     }
 }
