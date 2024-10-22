@@ -3,6 +3,9 @@ package codeql;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class BidirectionalPropagation {
 
     private static final Logger logger = LoggerFactory.getLogger(BidirectionalPropagation.class);
@@ -15,6 +18,8 @@ public class BidirectionalPropagation {
     }
 
     private static void doWork(String password) {
+        Map<String, String> json = new HashMap<>();
+        json.put("user_password", password);
     }
 
 }
