@@ -13,6 +13,10 @@ public class BidirectionalPropagation {
     public static void main(String[] args) {
         logger.debug(json.toString());
         String password = json.get("password");
+        doWork(password);
+    }
+
+    private static void doWork(String password) {
     }
 
 }
