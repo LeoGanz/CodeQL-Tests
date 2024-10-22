@@ -1,4 +1,4 @@
-package codeql;
+package codeql.abstract_invocation;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

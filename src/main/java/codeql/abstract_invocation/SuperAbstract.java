@@ -1,4 +1,4 @@
-package codeql;
+package codeql.abstract_invocation;
 
 import java.util.HashMap;
 import java.util.Map;
