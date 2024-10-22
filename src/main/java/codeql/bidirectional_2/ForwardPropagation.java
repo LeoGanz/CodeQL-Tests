@@ -13,9 +13,9 @@ public class ForwardPropagation {
     private static final Map<String, String> json = new HashMap<>();
 
     public static void main(String[] args) {
-        String password = getString();
-        json.put("password", password); // indicator for JVM-BidText
-//        String password = s; // indicator for CodeQL
+        String s = getString();
+        String password = s;
+        json.put("password", password);
         logger.debug("Object is " + password);
     }
 

@@ -13,10 +13,10 @@ public class BidirectionalPropagation {
     private static final Map<String, String> json = new HashMap<>();
 
     public static void main(String[] args) {
-        String password = getString();
-        logger.debug("String is " + password);
-        json.put("password", password); // indicator for JVM-BidText
-//        String password = s; // indicator for CodeQL
+        String s = getString();
+        logger.debug("String is " + s);
+        String password = s;
+        json.put("password", password);
     }
 
     private static String getString() {
