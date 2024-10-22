@@ -13,6 +13,9 @@ public class ForwardPropagation {
     public static void main(String[] args) {
         String password = json.get("password");
         logger.debug(json.toString());
+        doWork(password);
     }
 
+    private static void doWork(String password) {
+    }
 }
