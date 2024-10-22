@@ -1,4 +1,4 @@
-package codeql.abstract_invocation;
+package codeql.abstract_invocation_inheritance;
 
 import java.util.HashMap;
 import java.util.Map;
