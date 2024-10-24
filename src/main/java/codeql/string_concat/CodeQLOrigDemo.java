@@ -1,4 +1,4 @@
-package codeql;
+package codeql.string_concat;
 
 
 import org.slf4j.Logger;
@@ -12,6 +12,7 @@ public class CodeQLOrigDemo {
         String oAuthToken = "ljklkjljklkjlj";
 
         // BAD: user oAuthToken is written to debug log
-        logger.debug("User oAuthToken is " + oAuthToken);
+        String message = "User oAuthToken is " + oAuthToken;
+        logger.debug(message);
     }
 }

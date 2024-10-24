@@ -6,9 +6,9 @@ import org.slf4j.LoggerFactory;
 import java.util.HashMap;
 import java.util.Map;
 
-public class AbstractInvocation {
+public class DynamicInvocation {
 
-    private static final Logger logger = LoggerFactory.getLogger(AbstractInvocation.class);
+    private static final Logger logger = LoggerFactory.getLogger(DynamicInvocation.class);
 
     public static void main(String[] args) {
         Leaky leaky = () -> {

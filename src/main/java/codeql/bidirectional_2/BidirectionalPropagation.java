@@ -1,6 +1,5 @@
 package codeql.bidirectional_2;
 
-import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,13 +12,13 @@ public class BidirectionalPropagation {
     private static final Map<String, String> json = new HashMap<>();
 
     public static void main(String[] args) {
-        String s = getString();
+        String s = getUnknownData();
         logger.debug("String is " + s);
         String password = s;
         json.put("password", password);
     }
 
-    private static String getString() {
+    private static String getUnknownData() {
         return "Pass@0rd";
     }
 

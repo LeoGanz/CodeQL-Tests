@@ -5,7 +5,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class StringBuilderConcat {
-
     private static final Logger logger = LoggerFactory.getLogger(StringBuilderConcat.class);
 
     public static void main(String[] args) {
